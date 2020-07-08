@@ -1,0 +1,78 @@
+@import url(../node_modules/bootstrap/dist/css/bootstrap.min.css);
+@import url(../node_modules/font-awesome/css/font-awesome.min.css);
+@import url(../node_modules/bootstrap-social/bootstrap-social.css);
+/* Add a background color to the top navigation */
+.topnav {
+  background-color: white;
+  overflow: hidden;
+  /* Align topnav right */ }
+  .topnav .link-container {
+    float: right; }
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #303030;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 20px; }
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #00BFFF; }
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: white;
+  color: #303030; }
+
+/* Add a background color to the footer */
+.footer {
+  background-color: white;
+  overflow: hidden;
+  color: #303030;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 25px; }
+
+/* Change the color of links on hover */
+.containertwo a:hover {
+  color: #00BFFF; }
+
+/* Add color and modify font and colors to intro h2 */
+.introduction h2 {
+  color: #303030;
+  text-align: center;
+  font-size: 30px; }
+
+/* Change color and font size of email in footer */
+.btn-link {
+  color: #303030;
+  font-size: 25px; }
+
+/*Set height of the page container */
+.page-container {
+  min-height: 700px; }
+
+/*Change colors the social icons*/
+a.btn-instagram, .btn-facebook, .btn-twitter, .btn-google {
+  color: white;
+  background-color: #303030; }
+
+/* Change the color of links on hover */
+.dropdown-menu a:hover {
+  color: #00BFFF; }
+
+.btn:focus {
+  box-shadow: none; }
+
+/*Center button container */
+.button-container {
+  display: flex;
+  justify-content: center; }
+  .button-container .btn-group {
+    margin: 0 2px; }
+    .button-container .btn-group:active {
+      outline: 1px solid #00BFFF; }
