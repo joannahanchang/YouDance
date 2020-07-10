@@ -8,12 +8,11 @@
 	background-color: white;
 	overflow: hidden;
 
-	/* Align topnav right */
+/* Align topnav right */
 	.link-container {
 		float: right;
 	}
 }
-
  
 /* Style the links inside the navigation bar */
   .topnav a {
@@ -24,17 +23,17 @@
 	text-decoration: none;
 	font-size: 20px;
 }
-  
-/* Change the color of links on hover */
-  .topnav a:hover {
-	color:#00BFFF;
-  }
-  
+   
 /* Add a color to the active/current link */
   .topnav a.active {
 	background-color: white;
-	color: #303030;
+	color: #FF1493;
   }
+
+/* Show blue color when hover over*/
+  .btn:hover {
+	color: #FF1493;
+}
 
 /* Add a background color to the footer */
 .footer {
@@ -47,10 +46,17 @@
 	font-size: 25px;
   }
 
+/*Change colors the social icons*/
+a.btn-instagram, .btn-facebook, .btn-twitter, .btn-linkedin {
+	color: white;
+	background-color: #303030;
+}
+
 /* Change the color of links on hover */
 .containertwo a:hover {
-	color:#00BFFF;
+	color: #FF1493;
 }
+
 
 /* Add color and modify font and colors to intro h2 */
 .introduction h2 {
@@ -67,39 +73,96 @@
 
 /*Set height of the page container */
 .page-container {
-	min-height: 700px;
-}
-
-/*Change colors the social icons*/
-a.btn-instagram, .btn-facebook, .btn-twitter, .btn-google {
-	color: white;
-	background-color: #303030;
+	min-height: 100px;
 }
 
 /* Change the color of links on hover */
 .dropdown-menu a:hover {
-	color:#00BFFF;
+	color:#FF1493;
   }
 
-// .btn-group:active {
-// 	outline-color: #00BFFF;
+// .dropdown-menu {
+// 	position: absolute;
+// 	left: 50%;
+// 	right: auto;
+// 	text-align: center;
+// 	transform: translate(-50%, 0);
 //   }
+
+// .dropdown-menu {
+// 	right: auto;
+// 	left: 50%;
+// 	-webkit-transform: translate(-50%, 0);
+// 	-o-transform: translate(-50%, 0);
+// 	transform: translate(-50%, 0);}
+
+// ul.dropdown-menu>li {
+//     text-align: center;
+// }
+
+// .btn-group:active {
+// outline-color: #00BFFF;
+// }
+
+// .btn-group {text-align:center;}
+// .button, .dropdown-menu {margin:5px auto}
+// .dropdown-menu {width:200px; left:50%; margin-left:-15px;}
+
 
 .btn {
 	&:focus {
 		box-shadow: none;
 	}
 }
- 
-/*Center button container */
+
+/*Center button container and add margin and outline to button group*/
 .button-container {
 	display:flex;
 	justify-content: center;
 
 	.btn-group {
 		margin: 0 2px;
-		&:active {
-			outline: 1px solid #00BFFF;
+		.btn:active {
+			outline: 1px solid #FF1493;
 		}
 	}	
 }
+
+.dropdown-item {
+	cursor: pointer;
+}
+
+/*Align carousel button group to lower right hand side*/
+.carousel-btn-group {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* Change modal titles to pink*/
+.modal-title {
+	color: #FF1493;
+}
+
+/* Change form check of "remember me" to pink*/
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #FF1493;
+}
+
+/* Change border colors of registration and log in forms to pink when focus*/
+.form-control:focus {
+	color: #FF1493;
+	background-color: white;
+	border-color: #FF1493;
+	outline: 0;
+	box-shadow: 0 0 0 0.1rem #FF1493;
+  }
+
+/*NOT WORKING RIGHT NOW - WANT REMEMBER ME OUTLINE BORDER TO BE PINK*/
+// .custom-control-input:focus {
+// 	color: #FF1493;
+// 	background-color: white;
+// 	border-color: #FF1493;
+// 	outline: 0;
+// 	box-shadow: 0 0 0 0.2rem #FF1493;
+//   }

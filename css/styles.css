@@ -18,14 +18,14 @@
   text-decoration: none;
   font-size: 20px; }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  color: #00BFFF; }
-
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: white;
-  color: #303030; }
+  color: #FF1493; }
+
+/* Show blue color when hover over*/
+.btn:hover {
+  color: #FF1493; }
 
 /* Add a background color to the footer */
 .footer {
@@ -37,9 +37,14 @@
   text-decoration: none;
   font-size: 25px; }
 
+/*Change colors the social icons*/
+a.btn-instagram, .btn-facebook, .btn-twitter, .btn-linkedin {
+  color: white;
+  background-color: #303030; }
+
 /* Change the color of links on hover */
 .containertwo a:hover {
-  color: #00BFFF; }
+  color: #FF1493; }
 
 /* Add color and modify font and colors to intro h2 */
 .introduction h2 {
@@ -54,25 +59,47 @@
 
 /*Set height of the page container */
 .page-container {
-  min-height: 700px; }
-
-/*Change colors the social icons*/
-a.btn-instagram, .btn-facebook, .btn-twitter, .btn-google {
-  color: white;
-  background-color: #303030; }
+  min-height: 100px; }
 
 /* Change the color of links on hover */
 .dropdown-menu a:hover {
-  color: #00BFFF; }
+  color: #FF1493; }
 
 .btn:focus {
   box-shadow: none; }
 
-/*Center button container */
+/*Center button container and add margin and outline to button group*/
 .button-container {
   display: flex;
   justify-content: center; }
   .button-container .btn-group {
     margin: 0 2px; }
-    .button-container .btn-group:active {
-      outline: 1px solid #00BFFF; }
+    .button-container .btn-group .btn:active {
+      outline: 1px solid #FF1493; }
+
+.dropdown-item {
+  cursor: pointer; }
+
+/*Align carousel button group to lower right hand side*/
+.carousel-btn-group {
+  position: absolute;
+  right: 0;
+  bottom: 0; }
+
+/* Change modal titles to pink*/
+.modal-title {
+  color: #FF1493; }
+
+/* Change form check of "remember me" to pink*/
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #FF1493; }
+
+/* Change border colors of registration and log in forms to pink when focus*/
+.form-control:focus {
+  color: #FF1493;
+  background-color: white;
+  border-color: #FF1493;
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem #FF1493; }
+
+/*NOT WORKING RIGHT NOW - WANT REMEMBER ME OUTLINE BORDER TO BE PINK*/
