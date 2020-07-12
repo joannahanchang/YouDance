@@ -8,4 +8,8 @@ $(function() {
         $("#logIn").modal("show");
     })
 
+    $("#surveyButton").click(function() {
+        $("#survey").modal("show");
+    })
+
 });

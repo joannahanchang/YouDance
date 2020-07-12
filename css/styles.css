@@ -80,7 +80,7 @@ a.btn-instagram, .btn-facebook, .btn-twitter, .btn-linkedin {
 .dropdown-item {
   cursor: pointer; }
 
-/*Align carousel button group to lower right hand side*/
+/* Align carousel button group to lower right hand side*/
 .carousel-btn-group {
   position: absolute;
   right: 0;
@@ -92,7 +92,8 @@ a.btn-instagram, .btn-facebook, .btn-twitter, .btn-linkedin {
 
 /* Change form check of "remember me" to pink*/
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
-  background-color: #ff1493; }
+  background-color: #ff1493;
+  border: 2px solid #303030; }
 
 /* Change border colors of registration and log in forms to pink when focus*/
 .form-control:focus {
@@ -174,3 +175,31 @@ body {
     width: 300px;
     height: 200px;
     margin: 3px; }
+
+/* Styling for Quick Survey page starting from this line*/
+/* Change the radio buttons to pink*/
+input[type='radio']:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: white;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #303030; }
+
+input[type='radio']:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #ff1493;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #303030; }
