@@ -21,11 +21,11 @@
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: white;
-  color: #FF1493; }
+  color: #ff1493; }
 
 /* Show blue color when hover over*/
 .btn:hover {
-  color: #FF1493; }
+  color: #ff1493; }
 
 /* Add a background color to the footer */
 .footer {
@@ -44,7 +44,7 @@ a.btn-instagram, .btn-facebook, .btn-twitter, .btn-linkedin {
 
 /* Change the color of links on hover */
 .containertwo a:hover {
-  color: #FF1493; }
+  color: #ff1493; }
 
 /* Add color and modify font and colors to intro h2 */
 .introduction h2 {
@@ -63,7 +63,7 @@ a.btn-instagram, .btn-facebook, .btn-twitter, .btn-linkedin {
 
 /* Change the color of links on hover */
 .dropdown-menu a:hover {
-  color: #FF1493; }
+  color: #ff1493; }
 
 .btn:focus {
   box-shadow: none; }
@@ -75,7 +75,7 @@ a.btn-instagram, .btn-facebook, .btn-twitter, .btn-linkedin {
   .button-container .btn-group {
     margin: 0 2px; }
     .button-container .btn-group .btn:active {
-      outline: 1px solid #FF1493; }
+      outline: 1px solid #ff1493; }
 
 .dropdown-item {
   cursor: pointer; }
@@ -88,22 +88,22 @@ a.btn-instagram, .btn-facebook, .btn-twitter, .btn-linkedin {
 
 /* Change modal titles to pink*/
 .modal-title {
-  color: #FF1493; }
+  color: #ff1493; }
 
 /* Change form check of "remember me" to pink*/
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
-  background-color: #FF1493; }
+  background-color: #ff1493; }
 
 /* Change border colors of registration and log in forms to pink when focus*/
 .form-control:focus {
-  color: #FF1493;
+  color: #ff1493;
   background-color: white;
-  border-color: #FF1493;
+  border-color: #ff1493;
   outline: 0;
-  box-shadow: 0 0 0 0.1rem #FF1493; }
+  box-shadow: 0 0 0 0.1rem #ff1493; }
 
 .pink-text {
-  color: #FF1493; }
+  color: #ff1493; }
 
 /*NOT WORKING RIGHT NOW - WANT REMEMBER ME OUTLINE BORDER TO BE PINK*/
 /* Styling for Profile page starting from this line*/
@@ -114,7 +114,7 @@ body {
   padding: 0 3% 3% 3%;
   margin-bottom: 3%;
   border-radius: 0.5rem;
-  background: #fff; }
+  background: white; }
 
 .picture-and-about-container {
   display: flex; }
@@ -145,64 +145,32 @@ body {
   color: #303030; }
 
 .profile-head h6 {
-  color: #FF1493; }
-
-.profile-edit-btn {
-  border: none;
-  border-radius: 1.5rem;
-  width: 70%;
-  padding: 2%;
-  font-weight: 600;
-  color: #6c757d;
-  cursor: pointer; }
-
-.profile-edit-btn {
-  margin: 0 2px; }
-  .profile-edit-btn .btn:active {
-    outline: 1px solid #FF1493; }
-
-.proile-rating {
-  font-size: 12px;
-  color: #303030;
-  margin-top: 5%; }
-
-.proile-rating span {
-  color: #303030;
-  font-size: 15px;
-  font-weight: 600; }
+  color: #ff1493; }
 
 .profile-head .nav-tabs {
   margin-bottom: 1%; }
   .profile-head .nav-tabs .nav-link {
     font-weight: 600;
-    color: #FF1493;
+    color: #ff1493;
     border: none; }
     .profile-head .nav-tabs .nav-link.active {
       border: none;
-      border-bottom: 2px solid #303030; }
-
-.profile-work {
-  padding: 14%;
-  margin-top: -15%; }
-
-.profile-work p {
-  font-size: 12px;
-  color: #303030;
-  font-weight: 600;
-  margin-top: 10%; }
-
-.profile-work a {
-  text-decoration: none;
-  color: #303030;
-  font-weight: 600;
-  font-size: 14px; }
-
-.profile-work ul {
-  list-style: none; }
+      border-bottom: 4px solid #303030; }
 
 .profile-tab label {
   font-weight: 600; }
 
 .profile-tab p {
   font-weight: 600;
-  color: #FF1493; }
+  color: #ff1493; }
+
+.container-video {
+  display: flex;
+  flex-wrap: wrap; }
+  .container-video .video-box {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    width: 300px;
+    height: 200px;
+    margin: 3px; }

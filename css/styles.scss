@@ -3,6 +3,13 @@
 @import '../node_modules/font-awesome/css/font-awesome.min.css';
 @import '../node_modules/bootstrap-social/bootstrap-social.css';
 
+$color-pink: #ff1493;
+$color-gray: #303030;
+
+// $body-font: "Open Sans", sans-serif;
+// $header-font: "Lobster", cursive;
+
+
 /* Add a background color to the top navigation */
 .topnav {
 	background-color: white;
@@ -17,7 +24,7 @@
 /* Style the links inside the navigation bar */
   .topnav a.site-title {
 	float: left;
-	color: #303030;
+	color: $color-gray;
 	text-align: center;
 	padding: 10px 10px;
 	text-decoration: none;
@@ -27,19 +34,19 @@
 /* Add a color to the active/current link */
   .topnav a.active {
 	background-color: white;
-	color: #FF1493;
+	color: $color-pink;
   }
 
 /* Show blue color when hover over*/
   .btn:hover {
-	color: #FF1493;
+	color: $color-pink;
 }
 
 /* Add a background color to the footer */
 .footer {
 	background-color: white;
 	overflow: hidden;
-	color:#303030;
+	color: $color-gray;
 	text-align: center;
 	padding: 10px 10px;
 	text-decoration: none;
@@ -49,25 +56,25 @@
 /*Change colors the social icons*/
 a.btn-instagram, .btn-facebook, .btn-twitter, .btn-linkedin {
 	color: white;
-	background-color: #303030;
+	background-color: $color-gray;
 }
 
 /* Change the color of links on hover */
 .containertwo a:hover {
-	color: #FF1493;
+	color: $color-pink;
 }
 
 
 /* Add color and modify font and colors to intro h2 */
 .introduction h2 {
-	color: #303030;
+	color: $color-gray;
 	text-align: center;
 	font-size: 30px;
 }
 
 /* Change color and font size of email in footer */
 .btn-link {
-	color: #303030;
+	color: $color-gray;
 	font-size: 25px;
 }
 
@@ -78,7 +85,7 @@ a.btn-instagram, .btn-facebook, .btn-twitter, .btn-linkedin {
 
 /* Change the color of links on hover */
 .dropdown-menu a:hover {
-	color:#FF1493;
+	color: $color-pink;
   }
 
 // .dropdown-menu {
@@ -123,7 +130,7 @@ a.btn-instagram, .btn-facebook, .btn-twitter, .btn-linkedin {
 	.btn-group {
 		margin: 0 2px;
 		.btn:active {
-			outline: 1px solid #FF1493;
+			outline: 1px solid $color-pink;
 		}
 	}	
 }
@@ -141,25 +148,25 @@ a.btn-instagram, .btn-facebook, .btn-twitter, .btn-linkedin {
 
 /* Change modal titles to pink*/
 .modal-title {
-	color: #FF1493;
+	color: $color-pink;
 }
 
 /* Change form check of "remember me" to pink*/
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
-    background-color: #FF1493;
+    background-color: $color-pink;
 }
 
 /* Change border colors of registration and log in forms to pink when focus*/
 .form-control:focus {
-	color: #FF1493;
+	color: $color-pink;
 	background-color: white;
-	border-color: #FF1493;
+	border-color: $color-pink;
 	outline: 0;
-	box-shadow: 0 0 0 0.1rem #FF1493;
+	box-shadow: 0 0 0 0.1rem $color-pink;
   }
 
   .pink-text {
-	  color: #FF1493;
+	  color: $color-pink;
   }
 
 /*NOT WORKING RIGHT NOW - WANT REMEMBER ME OUTLINE BORDER TO BE PINK*/
@@ -175,12 +182,6 @@ a.btn-instagram, .btn-facebook, .btn-twitter, .btn-linkedin {
 
 /* Styling for Profile page starting from this line*/
 
-// .container.emp-profile {
-// 	border-radius: 0.5rem;
-// 	border-color: #FF1493;
-// }
-
-
 body {
 	background-color: white;
 }
@@ -191,7 +192,7 @@ body {
     // margin-top: 3%;
     margin-bottom: 3%;
     border-radius: 0.5rem;
-    background: #fff;
+    background: white;
 }
 .picture-and-about-container {
 	display: flex;
@@ -211,7 +212,7 @@ body {
     border: none;
     border-radius: 0;
     font-size: 15px;
-    background: #303030;
+    background: $color-gray;
 }
 .profile-img .file input {
     position: absolute;
@@ -220,50 +221,23 @@ body {
     top: 0;
 }
 .profile-head h5 {
-    color: #303030;
+    color: $color-gray;
 }
 
 .profile-head h6 {
-    color: #FF1493;
+    color: $color-pink;
 }
 
-.profile-edit-btn{
-    border: none;
-    border-radius: 1.5rem;
-    width: 70%;
-    padding: 2%;
-    font-weight: 600;
-    color: #6c757d;
-    cursor: pointer;
-}
-
-.profile-edit-btn {
-	margin: 0 2px;
-	.btn:active {
-		outline: 1px solid #FF1493;
-	}
-}
-
-.proile-rating{
-    font-size: 12px;
-    color: #303030;
-    margin-top: 5%;
-}
-.proile-rating span{
-    color: #303030;
-    font-size: 15px;
-    font-weight: 600;
-}
 .profile-head {
 	.nav-tabs {
 		margin-bottom: 1%;
 		.nav-link {
-			font-weight:600;
-			color: #FF1493;
+			font-weight: 600;
+			color: $color-pink;
 			border: none;
 			&.active {
 				border: none;
-				border-bottom:2px solid #303030;
+				border-bottom: 4px solid $color-gray;
 			}
 		}
 	}
@@ -278,27 +252,25 @@ body {
 
 // }
 
-
-
-.profile-work{
-    padding: 14%;
-    margin-top: -15%;
-}
-.profile-work p{
-    font-size: 12px;
-    color: #303030;
-    font-weight: 600;
-    margin-top: 10%;
-}
-.profile-work a{
-    text-decoration: none;
-    color: #303030;
-    font-weight: 600;
-    font-size: 14px;
-}
-.profile-work ul{
-    list-style: none;
-}
+// .profile-work{
+//     padding: 14%;
+//     margin-top: -15%;
+// }
+// .profile-work p{
+//     font-size: 12px;
+//     color: $color-gray;
+//     font-weight: 600;
+//     margin-top: 10%;
+// }
+// .profile-work a{
+//     text-decoration: none;
+//     color: $color-gray;
+//     font-weight: 600;
+//     font-size: 14px;
+// }
+// .profile-work ul{
+//     list-style: none;
+// }
 
 .profile-tab label {
     font-weight: 600;
@@ -306,5 +278,21 @@ body {
 
 .profile-tab p {
     font-weight: 600;
-    color: #FF1493;
+    color: $color-pink;
 }
+
+
+.container-video {
+	display: flex;
+	flex-wrap: wrap;
+
+	.video-box {
+		flex-grow: 0;
+		flex-shrink: 0;
+		flex-basis: auto;
+		width: 300px;
+		height: 200px;
+		margin: 3px;
+	}
+}
+
