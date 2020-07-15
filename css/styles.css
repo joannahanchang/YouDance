@@ -75,10 +75,32 @@ a.btn-instagram, .btn-facebook, .btn-twitter, .btn-linkedin {
   .button-container .btn-group {
     margin: 0 2px; }
     .button-container .btn-group .btn:active {
-      outline: 1px solid #ff1493; }
+      outline: 1px solid #303030; }
 
 .dropdown-item {
   cursor: pointer; }
+
+.custom-select {
+  color: #303030;
+  vertical-align: middle;
+  text-align: center;
+  align-items: center; }
+
+select {
+  text-align: center;
+  text-align-last: center;
+  /* webkit*/ }
+
+option {
+  text-align-last: left;
+  /* reset to left*/ }
+
+.custom-select:focus {
+  color: #ff1493;
+  background-color: white;
+  border-color: #ff1493;
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem #ff1493; }
 
 /* Align carousel button group to lower right hand side*/
 .carousel-btn-group {
@@ -106,7 +128,6 @@ a.btn-instagram, .btn-facebook, .btn-twitter, .btn-linkedin {
 .pink-text {
   color: #ff1493; }
 
-/*NOT WORKING RIGHT NOW - WANT REMEMBER ME OUTLINE BORDER TO BE PINK*/
 /* Styling for Profile page starting from this line*/
 body {
   background-color: white; }
