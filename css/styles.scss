@@ -329,3 +329,12 @@ input[type='radio']:checked:after {
 	visibility: visible;
 	border: 2px solid $color-gray;
 }
+.filtered-video-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	.video-description {
+		width: 750px;
+		padding: 0 10px;
+	}
+}
