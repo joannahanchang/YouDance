@@ -6,10 +6,6 @@
 $color-pink: #ff1493;
 $color-gray: #303030;
 
-// $body-font: "Open Sans", sans-serif;
-// $header-font: "Lobster", cursive;
-
-
 /* Add a background color to the top navigation */
 .topnav {
 	background-color: white;
@@ -59,6 +55,11 @@ a.btn-instagram, .btn-facebook, .btn-twitter, .btn-linkedin {
 	background-color: $color-gray;
 }
 
+/*Change padding of container*/
+.containerone {
+	padding: 10px 10px;
+}
+
 /* Change the color of links on hover */
 .containertwo a:hover {
 	color: $color-pink;
@@ -79,7 +80,7 @@ a.btn-instagram, .btn-facebook, .btn-twitter, .btn-linkedin {
 
 /*Set height of the page container */
 .page-container {
-	min-height: 100px;
+	min-height: 110px;
 }
 
 /* Change the color of links on hover */
@@ -106,6 +107,7 @@ a.btn-instagram, .btn-facebook, .btn-twitter, .btn-linkedin {
 	}	
 }
 
+/*Add a cursor to dropdown menu*/
 .dropdown-item {
 	cursor: pointer;
 }
@@ -126,13 +128,6 @@ option {
 	text-align-last: left;
 	/* reset to left*/
   }
-
-// 	option {
-// 		text-align-last: center;		
-// 	}
-// }
-
-// bootstrap custom-select: https://bootstrapbay.com/blog/useful-bootstrap-4-select-picker-for-your-forms/
 
 .custom-select:focus {
 	color: $color-pink;
@@ -170,12 +165,12 @@ option {
 	box-shadow: 0 0 0 0.1rem $color-pink;
   }
 
-  .pink-text {
+/*Change text to pink color*/
+.pink-text {
 	  color: $color-pink;
   }
 
 /* Styling for Profile page starting from this line*/
-
 body {
 	background-color: white;
 }

@@ -42,6 +42,10 @@ a.btn-instagram, .btn-facebook, .btn-twitter, .btn-linkedin {
   color: white;
   background-color: #303030; }
 
+/*Change padding of container*/
+.containerone {
+  padding: 10px 10px; }
+
 /* Change the color of links on hover */
 .containertwo a:hover {
   color: #ff1493; }
@@ -59,7 +63,7 @@ a.btn-instagram, .btn-facebook, .btn-twitter, .btn-linkedin {
 
 /*Set height of the page container */
 .page-container {
-  min-height: 100px; }
+  min-height: 110px; }
 
 /* Change the color of links on hover */
 .dropdown-menu a:hover {
@@ -75,8 +79,9 @@ a.btn-instagram, .btn-facebook, .btn-twitter, .btn-linkedin {
   .button-container .btn-group {
     margin: 0 2px; }
     .button-container .btn-group .btn:active {
-      outline: 1px solid #303030; }
+      outline: 1px solid #ff1493; }
 
+/*Add a cursor to dropdown menu*/
 .dropdown-item {
   cursor: pointer; }
 
@@ -125,6 +130,7 @@ option {
   outline: 0;
   box-shadow: 0 0 0 0.1rem #ff1493; }
 
+/*Change text to pink color*/
 .pink-text {
   color: #ff1493; }
 

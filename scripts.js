@@ -59,6 +59,13 @@ const videos = [
   },
   {
     style: "barre",
+    intensity: "moderate",
+    views: "10KPlus",
+    url: "https://www.youtube.com/embed/hMX8cKSPWdg",
+    description: `40-Minute Cardio and Booty-Burning Barre Workout`,
+  },
+  {
+    style: "barre",
     intensity: "high",
     views: "lessThan5K",
     url: "https://www.youtube.com/embed/66JbkdPLExU",
@@ -77,6 +84,13 @@ const videos = [
     views: "10KPlus",
     url: "https://www.youtube.com/embed/wy7dwTJgNw0",
     description: `BARRE WITH JANA! | High Intensity | Full Body Workout`,
+  },
+  {
+    style: "barre",
+    intensity: "high",
+    views: "10KPlus",
+    url: "https://www.youtube.com/embed/rPsPy_7zl0Q",
+    description: `Barre Fitness: 30-Minute Power Barre Workout Video`,
   },
   {
     style: "hipHop",
@@ -142,6 +156,13 @@ const videos = [
     description: `30-Minute Hip-Hop Fit Workout`,
   },
   {
+    style: "hipHop",
+    intensity: "high",
+    views: "10KPlus",
+    url: "https://www.youtube.com/embed/kwkXyHjgoDM",
+    description: `30-Minute Hip-Hop Tabata to Torch Calories`,
+  },
+  {
     style: "zumba",
     intensity: "low",
     views: "lessThan5K",
@@ -204,7 +225,91 @@ const videos = [
     url: "https://www.youtube.com/embed/gZm0PAl97b0",
     description: `Danza Kuduro(Fast Five) - Don Omar Ft. Lucenzo / Zumba® / Choreography / ZIN™ / WZS CREW / Wook`,
   },
-  ];
+  {
+    style: "zumba",
+    intensity: "high",
+    views: "10KPlus",
+    url: "https://www.youtube.com/embed/bm4WZyH5p2I",
+    description: `20-Minute STRONG by Zumba® Cardio and Full-Body Toning Workout`,
+  },
+  {
+  style: "other",
+  intensity: "low",
+  views: "lessThan5K",
+  url: "https://www.youtube.com/embed/kZiGDK-zymA",
+  description: `Freeplay LIVE – Buti Yoga with Tadasana Yoga`,
+},
+{
+  style: "other",
+  intensity: "low",
+  views: "5Kto10K",
+  url: "https://www.youtube.com/embed/RDw4zcifGis",
+  description: `Buti Yoga Flow with Jaynene`,
+},
+{
+  style: "other",
+  intensity: "low",
+  views: "10KPlus",
+  url: "https://www.youtube.com/embed/J0GWQ9WzYR0",
+  description: `Body Burn Dance & Pilates: Standing Pilates Workout`,
+},
+{
+  style: "other",
+  intensity: "moderate",
+  views: "lessThan5K",
+  url: "https://www.youtube.com/embed/YjrOYPZTWZA",
+  description: `A Hula Hoop Workout Hoopnastics Leg and Toning Workout`,
+},
+{
+  style: "other",
+  intensity: "moderate",
+  views: "5Kto10K",
+  url: "https://www.youtube.com/embed/GqZiNVk6e_0",
+  description: `Ballroom Body Blast`,
+},
+{
+  style: "other",
+  intensity: "moderate",
+  views: "10KPlus",
+  url: "https://www.youtube.com/embed/hfLz-cGraYY",
+  description: `Dance with Julianne Cardio Ballroom`,
+},
+{
+  style: "other",
+  intensity: "moderate",
+  views: "10KPlus",
+  url: "https://www.youtube.com/embed/J8Ja50bnX6U",
+  description: `30-Minute Cardio Dance Workout`,
+},
+{
+  style: "other",
+  intensity: "high",
+  views: "lessThan5K",
+  url: "https://www.youtube.com/embed/GE3SoUQ5GwU",
+  description: `Cardio Pilates & Dance with Dane Sorensen`,
+},
+{
+  style: "other",
+  intensity: "high",
+  views: "5Kto10K",
+  url: "https://www.youtube.com/embed/MYAe_EzhsOQ",
+  description: `Greenfield Jazzercise Fitness Center - Hip Hop Street Jam`,
+},
+{
+  style: "other",
+  intensity: "high",
+  views: "10KPlus",
+  url: "https://www.youtube.com/embed/3bZOu-7eL94",
+  description: `Latin Fat Burn Sizzle Workout: Burn to the Beat- Keaira LaShae`,
+},
+{
+  style: "other",
+  intensity: "high",
+  views: "10KPlus",
+  url: "https://www.youtube.com/embed/K9rLuxwTWlY",
+  description: `Burn 300 Calories in 30 Minutes Latin Dance Workout | Class FitSugar`,
+},
+];
   
 
   const danceStyleSelectorEl = document.querySelector("#dance-style");
