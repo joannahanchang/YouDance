@@ -38,6 +38,11 @@ $color-gray: #303030;
 	color: $color-pink;
 }
 
+/*Change color of body to white */
+body {
+	background-color: white;
+}
+
 /* Add a background color to the footer */
 .footer {
 	background-color: white;
@@ -88,6 +93,7 @@ a.btn-instagram, .btn-facebook, .btn-twitter, .btn-linkedin {
 	color: $color-pink;
   }
 
+/*Set to no shadow when focusing on the button */
 .btn {
 	&:focus {
 		box-shadow: none;
@@ -112,6 +118,7 @@ a.btn-instagram, .btn-facebook, .btn-twitter, .btn-linkedin {
 	cursor: pointer;
 }
 
+/*Style and align dropdown menu items*/
 .custom-select {
 	color: $color-gray;
 	vertical-align: middle;
@@ -119,16 +126,7 @@ a.btn-instagram, .btn-facebook, .btn-twitter, .btn-linkedin {
 	align-items: center;
 }
 
-select {
-	text-align: center;
-	text-align-last: center;
-	/* webkit*/
-  }
-option {
-	text-align-last: left;
-	/* reset to left*/
-  }
-
+/*Style and align dropdown menu items when focused*/
 .custom-select:focus {
 	color: $color-pink;
 	background-color: white;
@@ -137,6 +135,18 @@ option {
 	box-shadow: 0 0 0 0.1rem $color-pink;
   }
 
+/*Align dropdown menu items */
+select {
+	text-align: center;
+	text-align-last: center;
+	/* webkit*/
+  }
+
+/*Align dropdown menu items */
+option {
+	text-align-last: left;
+	/* reset to left*/
+  }
 
 /* Align carousel button group to lower right hand side*/
 .carousel-btn-group {
@@ -170,11 +180,7 @@ option {
 	  color: $color-pink;
   }
 
-/* Styling for Profile page starting from this line*/
-body {
-	background-color: white;
-}
-
+/* Styling and alignment for Profile page starting from line 184 through 262*/
 .emp-profile {
 	// padding: 3%;
 	padding: 0 3% 3% 3%;
@@ -255,11 +261,7 @@ body {
 	}
 }
 
-
-/* Styling for Quick Survey page starting from this line*/
-
-/* Change the radio buttons to pink*/
-
+/* Styling and alignment for Quick Survey page starting from line 265 to 300*/
 input[type='radio']:after {
 	width: 15px;
 	height: 15px;
